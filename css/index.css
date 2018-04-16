@@ -19,10 +19,6 @@
 
 }
 
-.nav {
-    margin: 10px 0 10px 0;
-}
-
 header {
     text-align: center;
 }
@@ -43,10 +39,11 @@ header {
     color: #9BA8AB;
     font-weight: bold;
     text-decoration: none;
-    margin:0 10px 0 10px;
+    margin: 0 10px 0 10px;
 
 
 }
+
 .cv:hover {
     text-decoration: none;
     color: #9BA8AB;
@@ -56,6 +53,7 @@ header {
     text-decoration: none;
     color: #9BA8AB;
 }
+
 .contact:hover {
     text-decoration: none;
     color: #9BA8AB;
@@ -65,12 +63,49 @@ header {
 .cv {
     background-color: #DC143C;
 }
-.projects{
+
+.projects {
     background-color: #00FFFF;
 }
-.contact{
+
+.contact {
     background-color: #98FB98;
 }
+
 .text {
+    display: block;
+
+
+}
+
+.cv_page,
+.projects_page,
+.contacts_page{
+    background-color: #e9ecef;
+    padding: 10px 50px 10px 50px;
+}
+
+#tnx {
+    width: 180px;
+    height: 20px;
+    padding: 10px;
+    opacity: 0;
+    margin-bottom: 10px;
+    margin: auto;
+    border-radius: 3px;
+    box-sizing: content-box;
+}
+
+.tnx {
+    border: 1px solid green;
+    background-color: rgba(158, 239, 178, .7);
+    color: green;
+    text-align: center;
+}
+
+.empty {
+    border: 1px solid red;
+    color: red;
+    background-color: rgba(252, 164, 164, .7);
     text-align: center;
 }
